@@ -3,8 +3,13 @@
 @import "partials/_navbar.scss";
 @import "partials/_footer.scss";
 @import "articles.scss";
+@import "blog.scss";
+@import "contact.scss";
 
 body {
+  margin-top: 0px;
+  
+  /****** TEXT *********/
   h1 {
     font-size: 106px;
     line-height: 1;
@@ -24,7 +29,7 @@ body {
     font-size: 20px;
     text-transform: uppercase;
     font-style: italic;
-    color: gray;
+    color: $gold;
     padding-bottom: 20px;
     letter-spacing: 3px;
   }
@@ -42,11 +47,48 @@ body {
     font-weight: 700;
     font-size: 12px;
   }
+
+  /****** CONTAINERS *********/
   .container {
     width: 100%;
     margin-left: 0px;
     margin-right: 0px;
     padding: 0;
   }
-  margin-top: 0px;
+  .flex-container {
+    width: 100vw;
+    padding-right: 20vw;
+    padding-left: 20vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+
+  /****** HEADERS *********/
+  section.module.parallax {
+    padding: 300px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .large-header {
+    height: 100vh;
+    h1 {
+      color: white;
+      font-family: 'Lato', sans-serif;
+    }
+    h2 {
+      color: $gold;
+      font-family: 'butler-light';
+    }
+  }
+  .small-header {
+    height: 70vh;
+    h1 {
+      color: $gold;
+      font-family: 'butler-light';
+    }
+  }
 }
