@@ -92,9 +92,24 @@ section.module.content {
   background: url("/assets/paper.jpg");
   background-size: cover; }
 
+section.cards {
+  margin-top: 100px;
+  margin-bottom: 100px; }
+
 .card {
   margin-top: 50px;
   margin-bottom: 50px; }
+  .card a {
+    margin-top: -5px;
+    text-decoration: none !important; }
+    .card a:hover {
+      color: #B98D49; }
+
+.small-card {
+  width: 20rem; }
+
+.title-card {
+  width: 100vw; }
 
 .contact-header {
   background: url("/assets/work.jpg");
@@ -104,7 +119,9 @@ section.contact {
   padding-top: 200px;
   padding-bottom: 200px; }
   section.contact h2 {
-    margin-bottom: 0px; }
+    margin-bottom: 10px; }
+  section.contact p {
+    font-size: 20px; }
 
 section.map #map {
   height: 400px;
