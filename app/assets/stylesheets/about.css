@@ -1,20 +1,20 @@
 /*
 Error: Undefined variable: "$gold".
-        on line 5 of stylesheets/contact.scss
+        on line 5 of stylesheets/about.scss
 
-1: .contact-header {
-2:   background: url('/assets/work.jpg');
+1: .about-header {
+2:   background: url('/assets/family1.jpg');
 3:   background-size:cover;
 4:   .container h1 {
 5:     color: $gold;
 6:     font-family: 'butler-light';
 7:   }
 8: }
-9: section.contact {
-10:   padding-top: 200px;
+9: 
+10: section.about {
 
 Backtrace:
-stylesheets/contact.scss:5
+stylesheets/about.scss:5
 /Users/andrewsullivan/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Users/andrewsullivan/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/script/tree/node.rb:50:in `perform'
 /Users/andrewsullivan/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -79,4 +79,4 @@ stylesheets/contact.scss:5
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$gold\".\A         on line 5 of stylesheets/contact.scss\A \A 1: .contact-header {\A 2:   background: url('/assets/work.jpg');\A 3:   background-size:cover;\A 4:   .container h1 {\A 5:     color: $gold;\A 6:     font-family: 'butler-light';\A 7:   }\A 8: }\A 9: section.contact {\A 10:   padding-top: 200px;"; }
+  content: "Error: Undefined variable: \"$gold\".\A         on line 5 of stylesheets/about.scss\A \A 1: .about-header {\A 2:   background: url('/assets/family1.jpg');\A 3:   background-size:cover;\A 4:   .container h1 {\A 5:     color: $gold;\A 6:     font-family: 'butler-light';\A 7:   }\A 8: }\A 9: \A 10: section.about {"; }

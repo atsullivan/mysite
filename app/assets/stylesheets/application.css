@@ -88,6 +88,22 @@ section.module.content {
     font-weight: 300;
     letter-spacing: 1px; }
 
+.about-header {
+  background: url("/assets/family1.jpg");
+  background-size: cover; }
+  .about-header .container h1 {
+    color: #B98D49;
+    font-family: 'butler-light'; }
+
+section.about {
+  padding-top: 200px;
+  padding-bottom: 200px; }
+  section.about h2 {
+    margin-bottom: 10px; }
+  section.about p {
+    font-size: 25px;
+    margin-top: 30px; }
+
 .blog-header {
   background: url("/assets/paper.jpg");
   background-size: cover; }
@@ -114,6 +130,9 @@ section.cards {
 .contact-header {
   background: url("/assets/work.jpg");
   background-size: cover; }
+  .contact-header .container h1 {
+    color: #B98D49;
+    font-family: 'butler-light'; }
 
 section.contact {
   padding-top: 200px;

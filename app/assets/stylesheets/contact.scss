@@ -1,6 +1,10 @@
 .contact-header {
   background: url('/assets/work.jpg');
   background-size:cover;
+  .container h1 {
+    color: $gold;
+    font-family: 'butler-light';
+  }
 }
 section.contact {
   padding-top: 200px;
