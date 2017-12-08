@@ -14,7 +14,7 @@
             <h4 class="card-title">
               <%= article.title %>
             </h4>
-            <p class="card-text"><%= article.text %></p>
+            <p class="card-text"><%= "#{article.text[0..50]}..." %></p>
             <%= link_to 'Read Article', article_path(article) %>
           </div>
         </div>
