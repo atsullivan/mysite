@@ -1,3 +1,5 @@
+<% links_hash = {"About" => "#", "Blog" => articles_path, "Contact" => "#"} %>
+
 <nav class="navbar fixed-top navbar-expand-lg">
   <a class="navbar-brand" href="<%= home_index_path %>">S</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -5,9 +7,9 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link" href="#">About</a>
-      <a class="nav-item nav-link" href="<%= articles_path %>">Blog</a>
-      <a class="nav-item nav-link" href="#">Contact</a>
+      <% links_hash.each do |title, link| %>
+        <a class="nav-item nav-link" href="<%= link %>"><%= title %></a>
+      <% end %>
     </div>
   </div>
 </nav>

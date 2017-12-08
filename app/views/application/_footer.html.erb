@@ -1,10 +1,11 @@
+<% social_profile_tags = ["github-alt", "instagram", "linkedin", "medium", "pinterest-p"]
+   social_profile_urls = social_profile_tags.map { |tag| "fa fa-#{tag} fa-2x" } %>
+
 <section class="module footer">
   <div class="container reveal">
     <h3>Stay Connected</h3>
-    <i class="fa fa-github-alt fa-2x" aria-hidden="true"></i>
-    <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
-    <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
-    <i class="fa fa-medium fa-2x" aria-hidden="true"></i>
-    <i class="fa fa-pinterest-p fa-2x" aria-hidden="true"></i>
+    <% social_profile_urls.each do |url| %>
+      <i class="<%= url %>" aria-hidden="true"></i>
+    <% end %>
   </div>
 </section>
