@@ -1,3 +1,84 @@
 // Place all the styles related to the Articles controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import "_fonts.scss";
+@import "_colors.scss";
+@import "_navbar.scss";
+
+body {
+  h1 {
+    font-size: 106px;
+    line-height: 1;
+    font-weight: 700;
+    font-size: 100px !important;
+    padding-bottom: 20px;
+    color: white;
+  }
+  h2 {
+    // font-family: 'shamery';
+    font-family: 'butler-light';
+    font-size: 50px;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+  }
+  h4 {
+    font-size: 50px;
+    font-family: 'butler-light';
+  }
+  p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+  }
+  a {
+    color: $gold;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+  }
+  .container {
+    width: 100%;
+    // margin: 0 auto;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0;
+  }
+  margin-top: 0px;
+}
+
+/****** HEADER *********/
+section.module.parallax {
+  padding: 300px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  background: url('/assets/plant.jpg');
+  background-size:cover;
+  height: 100vh;
+  h2 {
+    color: $gold;
+    font-family: 'shamery';
+  }
+}
+
+/****** CONTENT *********/
+section.module {
+  h2 {
+    color: black;
+    // background: -webkit-linear-gradient(250deg, $br-red, $br-blue);
+    // -webkit-background-clip: text;
+    // -webkit-text-fill-color: transparent;
+  }
+  p {
+    margin-bottom: 40px;
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+  width: 100vw;
+}
+section.module.content {
+  padding: 15vh 30vw 10vh 30vw;
+  text-align: center;
+}

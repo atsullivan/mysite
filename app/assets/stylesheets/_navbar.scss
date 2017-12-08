@@ -1,0 +1,49 @@
+@import "_fonts.scss";
+@import "_colors.scss";
+
+.navbar {
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: transparent;
+  .navbar-brand {
+    font-family: 'butler-regular';
+    text-transform: uppercase;
+    font-size: 40px;
+
+    color: $gold;
+    // background: $gradient;
+    // -webkit-background-clip: text;
+    // -webkit-text-fill-color: transparent;
+
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    &:hover {
+      color: white;
+    }
+  }
+  .navbar-nav {
+    position: absolute;
+    right: 0;
+  }
+  a.nav-link {
+    color: white;
+    text-transform: uppercase;
+    margin-right: 20px;
+    margin-left: 20px;
+    letter-spacing: 4px;
+    font-weight: 300;
+    font-size: 15px;
+
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    &:hover {
+      color: $gold;
+    }
+  }
+}

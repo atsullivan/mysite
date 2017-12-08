@@ -1,2 +1,27 @@
-<h1>Home</h1>
-<%= link_to 'My Blog', controller: 'articles' %>
+<%= render 'navbar' %>
+
+<div class="container">
+  <section class="module parallax">
+    <div class="container reveal">
+      <h1>Hi, I'm Sully</h1>
+      <h2>Coder & Designer</h2>
+    </div>
+  </section>
+
+  <section class="module content">
+    <div class="container">
+      <h2 class="reveal">About Me</h2>
+      <p class="reveal">My name is Andrew Sullivan, but everyone calls me Sully.  I married my high school sweet heart and have two beautiful baby girls with her.</p>
+      <!-- <p class="reveal">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil consequuntur, nesciunt dicta, esse rem ducimus itaque quis. Adipisci ullam nam qui illum debitis sit ad in delectus, repudiandae non dolorum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit veritatis, facere aliquid itaque tempore consequatur nihil sint enim aliquam id saepe magnam totam repellat placeat a fugit nulla molestias voluptas.</p> -->
+    </div>
+  </section>
+  <section class="module content">
+    <div class="container">
+      <h2 class="reveal">About Me</h2>
+      <p class="reveal">My name is Andrew Sullivan, but everyone calls me Sully.  I married my high school sweet heart and have two beautiful baby girls with her.</p>
+      <!-- <p class="reveal">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil consequuntur, nesciunt dicta, esse rem ducimus itaque quis. Adipisci ullam nam qui illum debitis sit ad in delectus, repudiandae non dolorum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit veritatis, facere aliquid itaque tempore consequatur nihil sint enim aliquam id saepe magnam totam repellat placeat a fugit nulla molestias voluptas.</p> -->
+    </div>
+  </section>
+</div>
+
+<%= javascript_include_tag('demo.js') %>

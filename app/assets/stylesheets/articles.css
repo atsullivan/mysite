@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,900");
+@import url("https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text");
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,900");
+@import url("https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text");
+@font-face {
+  font-family: 'shamery';
+  src: url("../fonts/shamery.otf") format("otf"); }
+@font-face {
+  font-family: 'fuji_quake_zone-webfont';
+  src: url("../fonts/fuji_quake_zone-webfont.ttf") format("truetype"); }
+@font-face {
+  font-family: 'butler-regular';
+  src: url("../fonts/Butler_Regular.otf") format("otf"); }
+@font-face {
+  font-family: 'butler-light';
+  src: url("../fonts/Butler_Light.otf") format("otf"); }
+/****** COLORS *********/
+/****** GRADIENT *********/
+@font-face {
+  font-family: 'shamery';
+  src: url("../fonts/shamery.otf") format("otf"); }
+@font-face {
+  font-family: 'fuji_quake_zone-webfont';
+  src: url("../fonts/fuji_quake_zone-webfont.ttf") format("truetype"); }
+@font-face {
+  font-family: 'butler-regular';
+  src: url("../fonts/Butler_Regular.otf") format("otf"); }
+@font-face {
+  font-family: 'butler-light';
+  src: url("../fonts/Butler_Light.otf") format("otf"); }
+/****** COLORS *********/
+/****** GRADIENT *********/
+.navbar {
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: transparent; }
+  .navbar .navbar-brand {
+    font-family: 'butler-regular';
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #B98D49;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease; }
+    .navbar .navbar-brand:hover {
+      color: white; }
+  .navbar .navbar-nav {
+    position: absolute;
+    right: 0; }
+  .navbar a.nav-link {
+    color: white;
+    text-transform: uppercase;
+    margin-right: 20px;
+    margin-left: 20px;
+    letter-spacing: 4px;
+    font-weight: 300;
+    font-size: 15px;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease; }
+    .navbar a.nav-link:hover {
+      color: #B98D49; }
+
+body {
+  margin-top: 0px; }
+  body h1 {
+    font-size: 106px;
+    line-height: 1;
+    font-weight: 700;
+    font-size: 100px !important;
+    padding-bottom: 20px;
+    color: white; }
+  body h2 {
+    font-family: 'butler-light';
+    font-size: 50px;
+    margin-bottom: 30px;
+    letter-spacing: 3px; }
+  body h4 {
+    font-size: 50px;
+    font-family: 'butler-light'; }
+  body p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300; }
+  body a {
+    color: #B98D49;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px; }
+  body .container {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0; }
+
+/****** HEADER *********/
+section.module.parallax {
+  padding: 300px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  background: url("/assets/plant.jpg");
+  background-size: cover;
+  height: 100vh; }
+  section.module.parallax h2 {
+    color: #B98D49;
+    font-family: 'shamery'; }
+
+/****** CONTENT *********/
+section.module {
+  width: 100vw; }
+  section.module h2 {
+    color: black; }
+  section.module p {
+    margin-bottom: 40px;
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 1px; }
+
+section.module.content {
+  padding: 15vh 30vw 10vh 30vw;
+  text-align: center; }
+
+/*# sourceMappingURL=articles.css.map */
