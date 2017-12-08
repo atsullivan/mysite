@@ -1,15 +1,152 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,900");
+@import url("https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text");
+@font-face {
+  font-family: 'fuji_quake_zone-webfont';
+  src: url("../fonts/fuji_quake_zone-webfont.ttf") format("truetype"); }
+@font-face {
+  font-family: 'butler-regular';
+  src: url("../fonts/Butler_Regular.otf") format("otf"); }
+@font-face {
+  font-family: 'butler-light';
+  src: url("../fonts/Butler_Light.otf") format("otf"); }
+/****** COLORS *********/
+/****** GRADIENT *********/
+.navbar {
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: transparent; }
+  .navbar .navbar-brand {
+    font-family: 'butler-regular';
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #B98D49;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease; }
+    .navbar .navbar-brand:hover {
+      color: white; }
+  .navbar .navbar-nav {
+    position: absolute;
+    right: 0; }
+  .navbar a.nav-link {
+    color: white;
+    text-transform: uppercase;
+    margin-right: 20px;
+    margin-left: 20px;
+    letter-spacing: 4px;
+    font-weight: 300;
+    font-size: 15px;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease; }
+    .navbar a.nav-link:hover {
+      color: #B98D49; }
+
+.footer {
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-color: #1B1F21;
+  color: white; }
+  .footer .fa {
+    margin-right: 30px;
+    margin-left: 30px; }
+
+/****** HEADER *********/
+section.module.parallax {
+  padding: 300px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase; }
+  section.module.parallax h2 {
+    color: #B98D49;
+    font-family: 'shamery';
+    font-family: 'butler-light'; }
+
+.header1 {
+  background: url("/assets/plant.jpg");
+  background-size: cover;
+  height: 100vh; }
+
+.header2 {
+  background: url("/assets/paper.jpg");
+  background-size: cover;
+  height: 70vh; }
+  .header2 h1 {
+    color: white;
+    color: #B98D49;
+    font-family: 'butler-light'; }
+
+/****** CONTENT *********/
+section.module {
+  width: 100vw; }
+  section.module h2 {
+    color: black; }
+  section.module p {
+    margin-bottom: 40px;
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 1px; }
+
+section.module.content {
+  padding: 15vh 30vw 10vh 30vw;
+  text-align: center; }
+
+.flex-container {
+  width: 100vw;
+  padding-right: 20vw;
+  padding-left: 20vw;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around; }
+
+.card {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+body {
+  margin-top: 0px; }
+  body h1 {
+    font-size: 106px;
+    line-height: 1;
+    font-weight: 700;
+    font-size: 100px !important;
+    padding-bottom: 20px;
+    color: white; }
+  body h2 {
+    font-family: 'butler-light';
+    font-size: 50px;
+    margin-bottom: 30px;
+    letter-spacing: 3px; }
+  body h3 {
+    font-family: 'butler-light';
+    font-size: 20px;
+    text-transform: uppercase;
+    font-style: italic;
+    color: gray;
+    padding-bottom: 20px;
+    letter-spacing: 3px; }
+  body h4 {
+    font-size: 50px;
+    font-family: 'butler-light'; }
+  body p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300; }
+  body a {
+    color: #B98D49;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px; }
+  body .container {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0; }
+
+/*# sourceMappingURL=application.css.map */

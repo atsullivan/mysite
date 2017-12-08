@@ -12,10 +12,12 @@
   <body>
     <%= render 'navbar' %>
     <%= yield %>
+    <%= render 'footer' %>
   </body>
 
   <%= javascript_include_tag('parallax.js') %>
-  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+  <%= javascript_include_tag('https://use.fontawesome.com/7bd968ec64.js') %>
+  <%= javascript_include_tag('https://unpkg.com/scrollreveal/dist/scrollreveal.min.js') %>
   <script>
     window.sr = ScrollReveal();
     sr.reveal('.reveal', { duration: 1000, delay: 50, reset: true });
