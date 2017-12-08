@@ -103,13 +103,25 @@ section.module.parallax {
   align-items: center;
   justify-content: center;
   text-align: center;
-  text-transform: uppercase;
+  text-transform: uppercase; }
+  section.module.parallax h2 {
+    color: #B98D49;
+    font-family: 'shamery';
+    font-family: 'butler-light'; }
+
+.header1 {
   background: url("/assets/plant.jpg");
   background-size: cover;
   height: 100vh; }
-  section.module.parallax h2 {
+
+.header2 {
+  background: url("/assets/paper.jpg");
+  background-size: cover;
+  height: 70vh; }
+  .header2 h1 {
+    color: white;
     color: #B98D49;
-    font-family: 'shamery'; }
+    font-family: 'butler-light'; }
 
 /****** CONTENT *********/
 section.module {
@@ -125,5 +137,17 @@ section.module {
 section.module.content {
   padding: 15vh 30vw 10vh 30vw;
   text-align: center; }
+
+.flex-container {
+  width: 100vw;
+  padding-right: 20vw;
+  padding-left: 20vw;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around; }
+
+.card {
+  margin-top: 50px;
+  margin-bottom: 50px; }
 
 /*# sourceMappingURL=articles.css.map */
