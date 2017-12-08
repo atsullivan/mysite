@@ -72,10 +72,10 @@ function initMap() {
       },
       {
         "featureType": "poi.park",
-        "elementType": "labels.text.fill",
+        "elementType": "labels.text",
         "stylers": [
           {
-            "color": "#9e9e9e"
+            "visibility": "off"
           }
         ]
       },
@@ -204,6 +204,16 @@ function initMap() {
       }
     ]
   );
+  var contentString = '<div id="content">'+
+                        '<div id="bodyContent">'+
+                          '<p class="map-header">Procore Technologies</p>'+
+                          '<p>6309 Carpinteria Ave, Carpinteria, CA 93013'
+                        '</div>'+
+                      '</div>';
+
+  var infowindow = new google.maps.InfoWindow({
+          content: contentString
+        });
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 14,
     center: uluru,
@@ -213,6 +223,9 @@ function initMap() {
      map.setMapTypeId('styled_map');
   var marker = new google.maps.Marker({
     position: uluru,
-    map: map
+    map: map,
+    animation: google.maps.Animation.DROP,
+    title: 'Uluru (Ayers Rock)'
   });
+  infowindow.open(map, marker);
 }

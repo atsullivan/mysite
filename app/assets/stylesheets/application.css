@@ -100,9 +100,24 @@ section.module.content {
   background: url("/assets/work.jpg");
   background-size: cover; }
 
-#map {
+section.contact {
+  padding-top: 200px;
+  padding-bottom: 200px; }
+  section.contact h2 {
+    margin-bottom: 0px; }
+
+section.map #map {
   height: 400px;
   width: 100vw; }
+section.map .map-header {
+  font-family: 'butler-light';
+  text-transform: uppercase;
+  color: black;
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 10px; }
+section.map p {
+  color: #B98D49; }
 
 body {
   margin-top: 0px;
