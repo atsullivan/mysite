@@ -13,7 +13,6 @@ development:
   <<: *default
   encoding: unicode
   database: mysite_development
-  username: andrewsullivan
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -22,7 +21,6 @@ test:
   <<: *default
   encoding: unicode
   database: mysite_test
-  username: andrewsullivan
 
 production:
   <<: *default
