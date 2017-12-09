@@ -6,18 +6,21 @@
     </div>
   </section>
 
-  <section class="module content">
+  <% interests = [
+      "Design beautiful interfaces.",
+      "Write understandable and maintainable code.",
+      "Improve everyday."
+    ] %>
+  <section class="module home">
     <div class="container">
-      <h2 class="reveal">About Me</h2>
-      <p class="reveal">My name is Andrew Sullivan, but everyone calls me Sully.  I married my high school sweet heart and have two beautiful baby girls with her.</p>
-      <!-- <p class="reveal">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil consequuntur, nesciunt dicta, esse rem ducimus itaque quis. Adipisci ullam nam qui illum debitis sit ad in delectus, repudiandae non dolorum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit veritatis, facere aliquid itaque tempore consequatur nihil sint enim aliquam id saepe magnam totam repellat placeat a fugit nulla molestias voluptas.</p> -->
-    </div>
-  </section>
-  <section class="module content">
-    <div class="container">
-      <h2 class="reveal">About Me</h2>
-      <p class="reveal">My name is Andrew Sullivan, but everyone calls me Sully.  I married my high school sweet heart and have two beautiful baby girls with her.</p>
-      <!-- <p class="reveal">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil consequuntur, nesciunt dicta, esse rem ducimus itaque quis. Adipisci ullam nam qui illum debitis sit ad in delectus, repudiandae non dolorum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit veritatis, facere aliquid itaque tempore consequatur nihil sint enim aliquam id saepe magnam totam repellat placeat a fugit nulla molestias voluptas.</p> -->
+      <div class="row">
+        <div class="col-md-6 offset-md-4">
+          <h2 class="reveal">I like to</h2>
+          <% interests.each do |interest| %>
+            <p class="reveal"><%= interest %></p>
+          <% end %>
+        </div>
+      </div>
     </div>
   </section>
 </div>
