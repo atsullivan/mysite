@@ -88,6 +88,10 @@ section.home {
     font-weight: 300;
     letter-spacing: 1px; }
 
+.article-header {
+  background: url("/assets/space.jpg");
+  background-size: cover; }
+
 .about-header {
   background: url("/assets/family1.jpg");
   background-size: cover; }
@@ -223,8 +227,13 @@ body {
     body .large-header h2 {
       color: #B98D49;
       font-family: 'butler-light'; }
-  body .small-header {
+  body .medium-header {
     height: 70vh; }
+    body .medium-header h1 {
+      color: #B98D49;
+      font-family: 'butler-light'; }
+  body .small-header {
+    height: 10vh; }
     body .small-header h1 {
       color: #B98D49;
       font-family: 'butler-light'; }

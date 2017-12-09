@@ -92,8 +92,16 @@ body {
       font-family: 'butler-light';
     }
   }
-  .small-header {
+  .medium-header {
     height: 70vh;
+    h1 {
+      color: $gold;
+      font-family: 'butler-light';
+    }
+  }
+
+  .small-header {
+    height: 10vh;
     h1 {
       color: $gold;
       font-family: 'butler-light';
